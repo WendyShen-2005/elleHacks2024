@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <script src="navBar.js" defer></script>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="navBar.css"/>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+
+  <body>
+    <div id="navigationalBar">
+        <img id="logo" src="Logo.png" alt="logo">
+        <!-- naming id: MUST be button name + Button (ex: HomeButton) -->
+        <a role="button" href="index.html"><div class="button" id="HomeButton">Home</div></a>
+        <a role="button" href="contactUs.html"><div class="button" id="ContactButton">Contact</div></a>
+        <a role="button" href="flightTracker.html"><div class="button" id="FlightsButton">Flights</div></a>
+        <a role="button" href="https://purple-apricots-2mkh.squarespace.com/"><div class="button" id="HotelsButton">Hotels</div></a>
+        <a role="button" href="page1.html"><div class="button" id="FormButton">Form</div></a>
+    </div>
+    <div>
+        <!-- main image floating up -->
+        <p id="consolelog"></p>
+        <br><br>
+    </div>
+
+    <img src="home.png" alt="Introduction to Snow Drop" style="width: 100%;">
+
+    <div id="starryNight"> <!-- starry nighttime background -->
+        <div style="display: inline-block; overflow: hidden; background: black; width: 100%; padding: 20px;">
+                <a role="button" href="page1.html" style="margin: 10px; color: black; text-align: center;">
+                    <!-- <img src="Logo.png" alt="Image of a form" style="size: 100px; display: inline;"> -->
+                    <h2>Fill out your details</h2>
+                </a>
+                <a role="button" href="flightTracker.html" style="margin: 10px; color: black">
+                    <h2 id="flightTracker">Flight Tracker</h2>
+                </a>
+                <a role="button" href="https://purple-apricots-2mkh.squarespace.com/" style="margin: 10px; color: black;"> 
+                    <h2 id="hotelAvails">Hotel Availabilities</h2>
+                </a>
+        </div>
+    
+
+        <div id="contact">
+            <h1>Questions? Concerns?</h1>
+            <a role="button" href="contactUs.html"><h2 id="contactUs">Contact us</h2> </a>
+            <a role="button" href="https://docs.google.com/spreadsheets/d/1Xpp9I8ARxV7-boePIKQ98HNDCsaT9iNq8yody0loERY/edit#gid=0"><h2 id="airlines">Airlines Directory</h2></a>
+            <!--<a role="button"><h2 id="shuttleBuses">Shuttle Buses Directory</h2></a> -->
+        </div>
+    </div>
+  </body>
+</html>

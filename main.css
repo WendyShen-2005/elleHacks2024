@@ -1,0 +1,36 @@
+html {
+    background-color: black;
+}
+h2 {
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    width: fit-content;
+    display: inline-block;
+}
+#contact {
+    background-color: rgb(177, 185, 205);
+    text-align: center;
+    overflow: hidden;
+    color: rgb(47, 130, 127);
+    padding: 20px;
+}
+#introParagraph {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    color: purple;
+}
+#starryNight {
+    text-align: center;
+    padding: 30px;
+    background-size: cover;
+    overflow: hidden;
+}
+.infoBoxes{
+    padding: 10px;
+    background-color: black;
+    color: rgb(214, 156, 232);
+    margin: 20px;
+}

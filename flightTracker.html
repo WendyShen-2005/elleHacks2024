@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flight Tracker</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <script src="navBar.js" defer></script>
+    <script src="flightTracker.js" defer></script>
+    <link rel="stylesheet" href="navBar.css"/>
+
+    <link rel="stylesheet" href="flightTracker.css"/>
+
+  </head>
+
+  <body>
+    <div id="navigationalBar">
+        <img id="logo" src="Logo.png" alt="logo">
+        <a role="button" href="index.html"><div class="button" id="HomeButton">Home</div></a>
+        <a role="button" href="contactUs.html"><div class="button" id="ContactButton">Contact</div></a>
+        <a role="button" href="flightTracker.html"><div class="button" id="FlightsButton">Flights</div></a>
+        <a role="button" href="https://purple-apricots-2mkh.squarespace.com/"><div class="button" id="HotelsButton">Hotels</div></a>
+        <a role="button" href="page1.html"><div class="button" id="FormButton">Form</div></a>
+    </div>
+
+    <br><br><br><br><br><br>
+    <div id="search">
+        <div id="origin">
+            <label>Origin:</label>
+            <input type="text" id="originInput">
+            <div class="searchOption" id="originInputOptCity"></div>
+            <div class="searchOption" id="originInputOptCode"></div>
+        </div>
+            <div id="destination">
+                <label>Destination:</label>
+                <input type="text" id="destinationInput">
+                <div class="searchOption" id="destinationInputOptCity"></div>
+                <div class="searchOption" id="destinationInputOptCode"></div>
+            </div>
+        <div id="searchSubmit">Search</div>
+        <p id="inputError"></p>
+    </div>
+
+    <div>
+        <h1 id="bigSubtitle">Flights from: </h1>
+        <div id="flight0">
+            <h3 id="flightNum0">Flight #</h3>
+            <h1 id="flightTime0"></h1>
+        </div>
+        <hr>
+        <div id="flight1">
+            <h3 id="flightNum1">Flight #</h3>
+            <h1 id="flightTime1"></h1>
+        </div>
+        <hr>
+        <div id="flight2">
+            <h3 id="flightNum2">Flight #</h3>
+            <h1 id="flightTime2"></h1>
+        </div>
+        <hr>
+        <div id="flight3">
+            <h3 id="flightNum3">Flight #</h3>
+            <h1 id="flightTime3"></h1>
+        </div>
+    </div>
+
+    <br><br>
+    <div id="consolelog"></div>
+
+  </body>
+</html>

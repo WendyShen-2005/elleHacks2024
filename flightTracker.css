@@ -1,0 +1,54 @@
+html {
+    font-size: 15px;
+}
+.searchOption {
+    font-size: 12px;
+    border: solid 1px black;
+    margin: 5px;
+    background-color: rgb(236, 234, 234);
+    padding: 10px;
+    display: none;
+    width: 150px;
+    border: none;
+}
+input {
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+}
+label {
+    display: block;
+    font-size: 15px;
+}
+#searchSubmit {
+    background-color: rgb(153, 137, 137);
+    padding: 10px;
+    width: fit-content;
+    position: center;
+    display: block;
+    height: fit-content;
+}
+#search {
+    background-color: rgb(201, 189, 186);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#origin, #destination {
+    display: inline-block;
+}
+
+#flight0, #flight1, #flight2, #flight3 {
+    padding: 10px;
+    margin: 10px;
+    display: none;
+    overflow: hidden;
+}
+
+#inputError {
+    color: darkred;
+    padding: 10px;
+    width: 100px;
+}

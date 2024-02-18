@@ -1,0 +1,14 @@
+*{
+    background-color: #265073;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F1FADA;
+}
+#inf{
+    font-weight: bold;
+}
+#contact{
+    column-count: 2;
+    column-gap: 50px;
+    column-width: 30%;
+    float: center;
+}
